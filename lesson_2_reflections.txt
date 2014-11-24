@@ -1,4 +1,4 @@
-lesson_2-reflections
+﻿lesson_2-reflections
 
 Q. What happens when you initialize a repository? Why do you need to do it?
 
@@ -15,12 +15,16 @@ may require committing more than one file at a time, but not all the files in a 
 The staging area allows selection of only the necessary files.
 
 
-
-How can you use the staging area to make sure you have one commit per logical
+Q. How can you use the staging area to make sure you have one commit per logical
 change?
 
-What are some situations when branches would be helpful in keeping your history
+A. Multiple changes may have been make to the code, but we can commit just one a time if
+we add only one logical change to the staging area before each commit.
+
+Q. What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+A. Branches may be used for a permanent split such as different languages.  Branches could be used to keep separate copies for development and production.  More branches could be used to test and develop major changes or during quick bug fixes to the production copy.
 
 How do the diagrams help you visualize the branch structure?
 
