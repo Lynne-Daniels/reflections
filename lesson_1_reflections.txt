@@ -1,0 +1,53 @@
+Q.  How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+A. Yes, rather than having to read the entire file, I could see just the altered
+sections.  It is similar to using "find" instead of searching for a word.
+
+
+Q.  How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+A.  By viewing the history, I could learn how a program evolves.  I might avoid
+repeating items that did not work or be able to revert to items that used to
+work, but dont anymore.
+
+
+Q. What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+A. Manually committing allows user to chose a logical point to commit such as
+after completing a new function or fixing an error.  Automatic commits may save
+unfinished updates and code that does not work.  Automatic committs would be helpful
+as backup in case a user forgets or is unable to save work.
+
+
+Q. Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+A.  Git was designed for projects that depend upon multiple documents.
+Google docs is more often used for single documents.
+
+
+Q. How can you use the commands git log and git diff to view the history of files?
+    
+A. git log will show the history of commits in the active directory. Git diff id1 id2
+will show the changes between two projects.  Deletions are in red, additions in green.
+It is necessary to use the down arrow or enter key to see all the information.  The 
+command q for quit will exit the log.
+
+
+Q. How might using version control make you more confident to make changes that
+could break something?
+    
+A. Saving each working version allows easy reversion to the working copy.
+
+
+Q. Now that you have your workspace set up, what do you want to try using Git for?
+
+A.  I will use it for a web project of my own and maybe for the next assigned
+project.  This is all very new to me.  I best use it as much as possiblle to get used
+to it.
+
+
