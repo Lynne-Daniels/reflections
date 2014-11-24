@@ -26,10 +26,23 @@ organized? How would branches help?
 
 A. Branches may be used for a permanent split such as different languages.  Branches could be used to keep separate copies for development and production.  More branches could be used to test and develop major changes or during quick bug fixes to the production copy.
 
-How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
+Q. How do the diagrams help you visualize the branch structure?
+
+A.  The diagrams show a line for each branch and each commit as a node on the line.
+It is very easy to follow the progress of each branch using the infographic.
+
+
+Q. What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+A.  Changes from each branch are combined into the remaining branch.  The diagram
+shows the separate branches merging into one branch.
+
+
+Q. What are the pros and cons of Git's' automatic merging vs. always doing merges
 manually?
+
+A. The automatic merging is a big time saver, but could cause unexpected changes.
+Git will not make changes if it sees a potential conflict where manual changes
+are preferred.
