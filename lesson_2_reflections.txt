@@ -4,8 +4,17 @@ Q. What happens when you initialize a repository? Why do you need to do it?
 
 A. Git creates a sub-directory and all the files it will use to track committs.
 
-How is the staging area different from the working directory and the repository?
+
+Q. How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+A. The staging area contains files that have been selected from the working directory
+in preparation for adding to the repository.  The staging area allows files to be
+added as a group instead of individually.  To have a new committ for each logical change
+may require committing more than one file at a time, but not all the files in a project.
+The staging area allows selection of only the necessary files.
+
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
