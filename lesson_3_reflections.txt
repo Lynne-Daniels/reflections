@@ -32,5 +32,6 @@ and by who changes were made.
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    It is better to make experimental or controversial changes in a separate brach so
+    It is better to make experimental or controversial changes in a separate branch so
 that the master branch is an accepted working copy.
+
